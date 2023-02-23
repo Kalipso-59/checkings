@@ -4,9 +4,10 @@ notes :)
 *********************************************************************************************************************************************************
 AAB
 {
-        A-accept
-        A-adapt
-        B-become better
+       
+       A-accept
+       A-adapt
+       B-become better
 }
 
 FAIL-First Attempt In Learning
@@ -17,6 +18,7 @@ FAIL-First Attempt In Learning
 GNL_PROJECT 
 
 {
+      
       1.gnl checking via command line:
 
              cc -Wall -Wextra -Werror -D BUFFER_SIZE=42 <files>.c
@@ -32,6 +34,7 @@ GNL_PROJECT
 PRINTF_PROJECT
 
 {
+     
       1. check with tester (tripouelle, maybe)
  
       2. check with my main manually
