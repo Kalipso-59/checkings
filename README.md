@@ -1,11 +1,46 @@
 # checkings
 
+notes :)
+*********************************************************************************************************************************************************
+AAB
+{
+        A-accept
+        A-adapt
+        B-become better
+}
 
-1.gnl checking via command line:
+FAIL-First Attempt In Learning
 
-cc -Wall -Wextra -Werror -D BUFFER_SIZE=42 <files>.c
+* don't worry it's OK ;)
 
-2. check with testers 
+*********************************************************************************************************************************************************
+GNL_PROJECT 
 
-3. check manual.. I usually do it in online gdb.
+{
+      1.gnl checking via command line:
 
+             cc -Wall -Wextra -Werror -D BUFFER_SIZE=42 <files>.c
+
+      2. check with testers 
+
+      3. check manually.. I usually do it in online gdb.
+
+      4. use my main
+}
+********************************************************************************************************************************************************
+
+PRINTF_PROJECT
+
+{
+      1. check with tester (tripouelle, maybe)
+ 
+      2. check with my main manually
+ 
+}
+
+********************************************************************************************************************************************************
+
+BORN2BEROOT
+
+{
+}
