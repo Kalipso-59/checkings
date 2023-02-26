@@ -1,6 +1,6 @@
 # checkings
 
-notes :)
+notes :)  ( flags for check correctness ( -Wall -Wextra -Werror -fsanitize=address -fno-omit-frame-pointer )
 *********************************************************************************************************************************************************
 AAB
 {
