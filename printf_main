@@ -1,0 +1,34 @@
+
+//#include <stdio.h>
+#include <stdarg.h>
+#include <unistd.h>
+#include "ft_printf.h"
+#include <stdio.h>
+
+int main()
+{
+    char *str = "world";
+    int num = 42;
+    unsigned int unum = 12345;
+    void *ptr = &num;
+
+    ft_printf("Hello, %s!\n", str);
+    printf("Hello, %s!\n", str);
+    ft_printf("The answer is %d.\n", num);
+    printf("The answer is %d.\n", num);
+    ft_printf("The unsigned number is %u.\n", unum);
+     printf("The unsigned number is %u.\n", unum);
+    ft_printf("The hexadecimal number is %x.\n", unum);
+    printf("The hexadecimal number is %x.\n", unum);
+    ft_printf("The pointer is %p.\n", ptr);
+    printf("The pointer is %p.\n", ptr);
+    ft_printf("%%%c%%%s%%%d%%%i%%%u%%%x%%%X%%%% %%%c%%%s%%%d%%%i%%%u%%%x%%%X%%%% %%%c%%%s%%%d%%%i%%%u%%%x%%%X%%%% %c%%", 
+    'A', "42", 42, 42 ,42 , 42, 42, 'B', "-42", -42, -42 ,-42 ,-42, 42, 
+    'C', "0", 0, 0 ,0 ,0, 42, 0);
+    printf("\n%%%c%%%s%%%d%%%i%%%u%%%x%%%X%%%% %%%c%%%s%%%d%%%i%%%u%%%x%%%X%%%% %%%c%%%s%%%d%%%i%%%u%%%x%%%X%%%% %c%%", 
+    'A', "42", 42, 42 ,42 , 42, 42, 'B', "-42", -42, -42 ,-42 ,-42, 42, 
+    'C', "0", 0, 0 ,0 ,0, 42, 0);
+    ft_printf("\n %p %p ", 0, 0);
+    printf("\n %p %p ", 0, 0);
+    return 0;
+}
