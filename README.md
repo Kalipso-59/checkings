@@ -30,26 +30,6 @@ GNL_PROJECT
       4. use my main
 }
 
-{
-
-
-#include "get_next_line.h"
-#include <stdio.h>
-
-int main()
-{
-    int fd = open("input.txt", O_RDONLY);
-    char *line = get_next_line(fd);
-    while (line)
-    {
-        printf("%s\n", line);
-        free(line);
-        line = get_next_line(fd);
-    }
-    close(fd);
-    return 0;
-}
-}
 ********************************************************************************************************************************************************
 
 PRINTF_PROJECT
