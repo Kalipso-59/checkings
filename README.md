@@ -1,6 +1,10 @@
 # checkings
 
 notes :)  ( flags for check correctness ( -Wall -Wextra -Werror -fsanitize=address -fno-omit-frame-pointer )
+extra flags for super careful check
+{
+-Wall -Wextra -Werror -fsanitize=address -fno-omit-frame-pointer  -Werror=implicit-function-declaration  -D_FORTIFY_SOURCE=2 -Werror=format-security
+}
 *********************************************************************************************************************************************************
 AAB
 {
