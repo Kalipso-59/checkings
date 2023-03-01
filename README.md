@@ -5,6 +5,8 @@ extra flags for super careful check
 {
 -Wall -Wextra -Werror -fsanitize=address -fno-omit-frame-pointer  -Werror=implicit-function-declaration  -D_FORTIFY_SOURCE=2 -Werror=format-security
 }
+
+Checklist : https://github.com/mharriso/school21-checklists/blob/master/ng_1_get_next_line.pdf
 *********************************************************************************************************************************************************
 AAB
 {
